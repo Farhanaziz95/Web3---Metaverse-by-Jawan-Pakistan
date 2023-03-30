@@ -1,0 +1,102 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.textwhite {
+  color: white;
+}
+
+.textnormal {
+  font-weight: 100;
+}
+
+main {
+  width: 100%;
+}
+
+aside {
+  padding-top: 160px;
+  width: 30%;
+  float: left;
+  background-color: #2b3743;
+}
+
+aside p {
+  line-height: 2;
+
+  padding-left: 20px;
+}
+
+aside i {
+  padding-right: 8px;
+}
+
+aside ul li {
+  line-height: 2;
+}
+.odd {
+  list-style: disc;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+.even {
+  list-style: inside circle;
+}
+
+article {
+  padding-top: 200px;
+  padding-left: 16px;
+  width: 68%;
+  float: left;
+}
+
+.lineline {
+  border-bottom: 2px solid black;
+  width: 67%;
+  display: inherit;
+  float: right;
+  padding-top: 10px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.inline-block-w-100 {
+  width: 100%;
+  display: inline-block;
+  line-height: 0;
+  margin: 0;
+}
+
+#head {
+  position: absolute;
+  top: 20px;
+  /* display: none; */
+  width: 100%;
+  background-color: #548ca8;
+}
+
+#lefthead {
+  width: 70%;
+  float: left;
+  padding-left: 50px;
+}
+
+#righthead {
+  width: 25%;
+  float: left;
+}
+
+#righthead img {
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -20px;
+  border: white 12px solid;
+}
